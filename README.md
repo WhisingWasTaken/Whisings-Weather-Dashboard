@@ -4,7 +4,7 @@
 [![Hack Club](https://img.shields.io/badge/Hack_Club-%23EC3750.svg?style=flat&logo=Hack-Club&logoColor=white)](https://hackclub.com/)
 ![Security Scanner](https://img.shields.io/badge/security-scanner-blue)
 ![Netlify](https://img.shields.io/badge/deployed%20on-Netlify-00C7B7)
-![VirusTotal API](https://img.shields.io/badge/API-VirusTotal-orange)
+![OpenWeatherMap API](https://img.shields.io/badge/API-OpenWeatherMap-orange?style=flat)
 
 A **sleek** and **modern** looking **Weather Dashboard**, designed to repurpose old devices into real‑time weather stations..
 
