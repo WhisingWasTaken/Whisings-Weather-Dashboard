@@ -14,33 +14,33 @@ A **sleek** and **modern** looking **Weather Dashboard**, designed to repurpose 
 ## ✨ Features
 
 ### 🎨 Modern UI/UX
-- **Dark/Light Mode with smooth transitions
+- Dark/Light Mode with smooth transitions
 
-- **Custom Color Themes for buttons
+- Custom Color Themes for buttons
 
-- **Responsive Design for all devices (phones, tablets, desktops)
+- Responsive Design for all devices (phones, tablets, desktops)
 
-- **Animated Weather Icons with gradient effects
+- Animated Weather Icons with gradient effects
 
-- **Glassmorphism Modal Dialogs for forecasts
+- Glassmorphism Modal Dialogs for forecasts
 
 ### 🌐 Real-Time Weather
-- **Live Weather Updates via API integration
+- Live Weather Updates via API integration
 
-- **Location-based Forecasts (auto-detect or manual entry)
+- Location-based Forecasts (auto-detect or manual entry)
 
-- **Multi-day Forecasts with detailed breakdowns
+- Multi-day Forecasts with detailed breakdowns
 
-- **Visual Statistics — temperature, humidity, wind speed, and more
+- Visual Statistics — temperature, humidity, wind speed, and more
 
 ### ⚡ Performance & Accessibility
-- **Optimized Loading states for smooth experience
+- Optimized Loading states for smooth experience
 
-- **Lightweight Build — runs well on older devices
+- Lightweight Build — runs well on older devices
 
-- **Cross-browser Support
+- Cross-browser Support
 
-- **No logins required — just open and use
+- No logins required — just open and use
 
 ### 🌟 Support
 - **⭐ Star the repository**
