@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Whising's Custom Weather Dashboard</title>
+</head>
+
+<body>
+    <div class="desktop-controls">
+        <button id="themeBtn" class="theme-btn" title="Toggle Theme">
+            <i class='bx bx-moon' id="themeIcon"></i>
+        </button>
+        <button class="color-picker-btn" id="colorPickerBtn" title="Color Settings">
+            <i class='bx bx-palette'></i>
+        </button>
+    </div>
+
+    <div class="format-help-popup" id="formatHelp">
+        <div class="popup-content">
+            <button class="close-popup" id="closeHelp">
+                <i class='bx bx-x'></i>
+            </button>
+            <h3><i class='bx bx-info-circle'></i> Location Format Help</h3>
+            <p>Enter location in this format:</p>
+            <div class="format-example">
+                <strong>City, Country Code</strong>
+                <div class="examples">
+                    <span class="example">London, GB</span>
+                    <span class="example">New York, US</span>
+                    <span class="example">Tokyo, JP</span>
+                    <span class="example">Sydney, AU</span>
+                </div>
+            </div>
+            <p class="note">Tip: You can also enter just city name for major cities.</p>
+            <button class="got-it-btn" id="gotItBtn">Got it!</button>
+        </div>
+    </div>
+
+    <div class="color-modal" id="colorModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Customize Colors</h3>
+                <button class="close-modal" id="closeModal">
+                    <i class='bx bx-x'></i>
+                </button>
+            </div>
+            <div class="color-options">
+                <div class="color-option">
+                    <label>Button Color</label>
+                    <input type="color" id="primaryColor" value="#303f9f">
+                    <span class="color-preview" id="primaryPreview"></span>
+                </div>
+                <div class="color-option">
+                    <label>Accent Color</label>
+                    <input type="color" id="secondaryColor" value="#5c6bc0">
+                    <span class="color-preview" id="secondaryPreview"></span>
+                </div>
+            </div>
+            <button class="reset-btn" id="resetColors">
+                <i class='bx bx-reset'></i> Reset to Default
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left-info">
+            <div class="pic-gradient"></div>
+            <div class="today-info">
+                <h2>Wednesday</h2>
+                <span>21 January 2026</span>
+                <div>
+                    <i class='bx bx-current-location'></i>
+                    <span id="locationName">India, IN</span>
+                    <button class="format-help-btn" id="showFormatHelp" title="Show Format Help">
+                        <i class='bx bx-help-circle'></i>
+                    </button>
+                </div>
+            </div>
+            <div class="today-weather">
+                <h1 class="weather-temp">
+                    25°C
+                </h1>
+                <h3>Sunny</h3>
+            </div>
+        </div>
+
+        <div class="right-info">
+            <div class="weather-stats-container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class='bx bx-droplet'></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-title">Precipitation</span>
+                            <span class="stat-value" id="precipitationValue">4%</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class='bx bx-cloud-rain'></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-title">Humidity</span>
+                            <span class="stat-value" id="humidityValue">34%</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class='bx bx-wind'></i>
+                        </div>
+                        <div class="stat-content">
+                            <span class="stat-title">Wind Speed</span>
+                            <span class="stat-value" id="windSpeedValue">6 km/h</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="days-list">
+                <li>
+                    <i class='bx bx-cloud'></i>
+                    <span>Sat</span>
+                    <span class="day-temp">23°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-sun'></i>
+                    <span>Sun</span>
+                    <span class="day-temp">28°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud-rain'></i>
+                    <span>Mon</span>
+                    <span class="day-temp">02°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud-drizzle'></i>
+                    <span>Tue</span>
+                    <span class="day-temp">14°C</span>
+                </li>
+            </ul>
+
+            <div class="btn-container">
+                <button class="loc-button">
+                    <i class='bx bx-search-alt-2'></i>
+                    <span>Search Location</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
