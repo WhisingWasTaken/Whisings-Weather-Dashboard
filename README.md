@@ -9,7 +9,7 @@
 A **sleek** and **modern** looking **Weather Dashboard**, designed to repurpose old devices into real‑time weather stations..
 
 ![Preview](https://img.shields.io/badge/preview-live-success)
-**Live Demo:** [Demo Link!](https://virustotalsimplifier.netlify.app)
+**Live Demo:** [Demo Link!](https://whisingsweatherdashboard.netlify.app/)
 
 ## ✨ Features
 
@@ -46,7 +46,7 @@ A **sleek** and **modern** looking **Weather Dashboard**, designed to repurpose 
 - **⭐ Star the repository**
 
 ### LINKS
-Live Demo: [Demo Link!](https://virustotalsimplifier.netlify.app)
+Live Demo: [Demo Link!](https://whisingsweatherdashboard.netlify.app/)
 
 Built with ❤️ by Whising
 
