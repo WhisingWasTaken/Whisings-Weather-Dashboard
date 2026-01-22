@@ -27,7 +27,7 @@ A **sleek** and **modern** looking **Weather Dashboard**, designed to repurpose 
 ### 🌐 Real-Time Weather
 - Live Weather Updates via API integration
 
-- Location-based Forecasts (auto-detect or manual entry)
+- Location-based Forecasts
 
 - Multi-day Forecasts with detailed breakdowns
 
