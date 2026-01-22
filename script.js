@@ -1,4 +1,4 @@
-const apiKey = '6f02ad086d0a3c94676867840d19eca5';
+const apiKey = '';
 const locButton = document.querySelector('.loc-button');
 const todayInfo = document.querySelector('.today-info');
 const todayWeatherIcon = document.querySelector('.today-weather i');
@@ -307,4 +307,5 @@ function createMobileControls() {
 }
 
 window.addEventListener('load', createMobileControls);
+
 window.addEventListener('resize', createMobileControls);
