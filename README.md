@@ -31,16 +31,16 @@ A **sleek** and **modern** looking **Weather Dashboard**, designed to repurpose 
 
 - Multi-day Forecasts with detailed breakdowns
 
-- Visual Statistics — temperature, humidity, wind speed, and more
+- Visual Statistics: temperature, humidity, wind speed, and more
 
 ### ⚡ Performance & Accessibility
 - Optimized Loading states for smooth experience
 
-- Lightweight Build — runs well on older devices
+- Lightweight Build so it runs well on older devices
 
 - Cross-browser Support
 
-- No logins required — just open and use
+- No logins required, just open and use
 
 ### 🌟 Support
 - **⭐ Star the repository**
